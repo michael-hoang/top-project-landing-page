@@ -17,6 +17,7 @@ body {
 .header-top-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 a {
@@ -60,9 +61,19 @@ li a,
 
 
 .header-image {
-    width: 700px;
+    width: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #708090;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 6px 26px;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-top: 10px;
 }
