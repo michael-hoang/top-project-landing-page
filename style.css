@@ -85,6 +85,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .content-title {
@@ -112,7 +113,6 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    margin: 100px 0;
     padding: 100px 25%;
     font-size: 32px;
     color: #1F2937;
@@ -124,4 +124,17 @@ button {
     font-weight: 800;
     text-align: end;
     margin-top: 5px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    background-color: #3882F6;
+    color: white;
+    padding: 20px;
+    margin: 100px 0;
 }
