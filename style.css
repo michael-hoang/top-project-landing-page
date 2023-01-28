@@ -12,8 +12,11 @@ body {
     color: #FAF9F8;
 }
 
-.header-logo {
+a {
     text-decoration: none;
+}
+
+.header-logo {
     color: #FAF9F8;
     font-size: 24px;
     font-weight: bold;
@@ -30,8 +33,13 @@ ul {
     list-style-type: none;
 }
 
-ul a {
-    text-decoration: none;
+.hero-main-text {
+    font-size: 48px;
+    font-weight:800;
+}
+
+li a,
+.hero-secondary-text {
     color: #E5E7EB;
     font-size: 18px;
 }
