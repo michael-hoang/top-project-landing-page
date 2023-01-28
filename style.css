@@ -16,15 +16,22 @@ body {
     text-decoration: none;
     color: #FAF9F8;
     font-size: 24px;
+    font-weight: bold;
 
 }
 
 .header-top-container {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 ul {
     display: flex;
     list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
