@@ -10,6 +10,13 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     color: #FAF9F8;
+    padding: 0 15%;
+
+}
+
+.header-top-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 a {
@@ -23,19 +30,26 @@ a {
 
 }
 
-.header-top-container {
-    display: flex;
-    justify-content: space-between;
-}
-
 ul {
     display: flex;
     list-style-type: none;
+    gap: 20px;
+}
+
+.header-bottom-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+    gap: 40px;
+}
+
+.header-content {
+    width: 600px;
 }
 
 .hero-main-text {
     font-size: 48px;
-    font-weight:800;
+    font-weight: 800;
 }
 
 li a,
@@ -44,6 +58,11 @@ li a,
     font-size: 18px;
 }
 
-.header-bottom-container {
+
+.header-image {
+    width: 700px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #708090;
 }
