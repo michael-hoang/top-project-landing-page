@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #FAF9F8;
+}
+
+.header-logo {
+    text-decoration: none;
+    color: #FAF9F8;
+    font-size: 24px;
+}
+
+.header-top-container {
+    display: flex;
+    justify-content:space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
