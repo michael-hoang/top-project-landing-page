@@ -92,7 +92,7 @@ button {
 
 .content-container {
     display: flex;
-    gap: 25px;
+    gap: 50px;
 }
 
 .image-border {
@@ -101,4 +101,8 @@ button {
     width: 150px;
     height: 150px;
     border-radius: 10px;
+}
+
+.content-item {
+    width: 150px;
 }
