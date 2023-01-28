@@ -81,9 +81,23 @@ button {
 .content {
     text-align: center;
     color: #1F2937;
+    padding: 0 20%;
 }
 
 .content-title {
     font-size: 36px;
     font-weight: 800;
+    margin: 40px;
+}
+
+.content-container {
+    display: flex;
+}
+
+.image-border {
+    border-style: solid;
+    border-color: #3882F6;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
 }
