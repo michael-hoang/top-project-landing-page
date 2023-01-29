@@ -160,3 +160,10 @@ button {
     border-style: solid;
     border-width: 2px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px 0;
+    text-align: center;
+}
