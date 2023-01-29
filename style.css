@@ -72,7 +72,7 @@ button {
     background-color: #3882F6;
     color: white;
     border: none;
-    padding: 6px 26px;
+    padding: 6px 30px;
     border-radius: 7px;
     font-size: 18px;
     margin-top: 10px;
@@ -143,6 +143,7 @@ button {
     justify-content: space-around;
     padding: 40px 50px;
     border-radius: 7px;
+    align-items: center;
 }
 
 .signup-title {
@@ -153,4 +154,9 @@ button {
 .signup-message {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.signup-box button {
+    border-style: solid;
+    border-width: 2px;
 }
